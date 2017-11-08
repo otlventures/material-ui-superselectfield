@@ -2,7 +2,7 @@
 /**
  * Created by Raphaël Morineau on 28 Oct 2016.
  */
-import 'babel-polyfill'
+// import 'babel-polyfill'
 import CheckedIcon from 'material-ui/svg-icons/navigation/check'
 import InfiniteScroller from 'react-infinite'
 import ListItem from 'material-ui/List/ListItem'
