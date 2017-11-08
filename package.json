@@ -2,8 +2,31 @@
   "name": "material-ui-superselectfield",
   "version": "1.7.0",
   "description": "original Material-UI's SelectField component enhanced with autocompletion, multiselection, custom renderers, and infinite loading.",
-  "main": "lib/index.js",
+  "keywords": [
+    "react",
+    "material-ui",
+    "autocomplete",
+    "select",
+    "dropdown",
+    "NWB",
+    "es2017"
+  ],
+  "author": "Raphaël Morineau <raphael.morineau@gmail.com>",
+  "contributors": [
+    "Tarik Huber <<huber.tarik@gmail.com>",
+    "Maximilian Pichler <maximilian.pichler97@gmail.com>"
+  ],
+  "homepage": "https://sharlaan.github.io/material-ui-superselectfield",
+  "license": "MIT",
   "private": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sharlaan/material-ui-superselectfield.git"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
     "css",
@@ -20,33 +43,20 @@
     "test:watch": "nwb test-react --server"
   },
   "dependencies": {
+    "react-infinite": "^0.12.1"
+  },
+  "peerDependencies": {
+    "react": "15.x || 16.x",
+    "react-dom": "15.x || 16.x",
+    "material-ui": ">= 0.17 < 1"
+  },
+  "devDependencies": {
     "enzyme": "^3.1.1",
     "enzyme-adapter-react-16": "^1.0.4",
     "material-ui": "^0.19.4",
+    "nwb": "^0.19.1",
     "prop-types": "^15.6.0",
-    "react-infinite": "^0.12.1",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2"
-  },
-  "peerDependencies": {
-    "react": "15.x"
-  },
-  "devDependencies": {
-    "nwb": "0.18.x",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0"
-  },
-  "author": "Raphaël Morineau <raphael.morineau@gmail.com>",
-  "homepage": "https://sharlaan.github.io/material-ui-superselectfield",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Sharlaan/material-ui-superselectfield.git"
-  },
-  "engines": {
-    "node": ">=6"
-  },
-  "keywords": [
-    "react-component"
-  ]
+  }
 }
