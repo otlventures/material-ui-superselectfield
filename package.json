@@ -48,7 +48,8 @@
   "peerDependencies": {
     "react": "15.x || 16.x",
     "react-dom": "15.x || 16.x",
-    "material-ui": ">= 0.17 < 1"
+    "material-ui": ">= 0.17 < 1",
+    "prop-types": "^15.6.0"
   },
   "devDependencies": {
     "enzyme": "^3.1.1",
@@ -56,6 +57,8 @@
     "material-ui": "^0.19.4",
     "nwb": "^0.19.1",
     "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
     "react-router": "^4.2.0",
     "react-router-dom": "^4.2.2"
   }
