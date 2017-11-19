@@ -1,3 +1,6 @@
 {
-  "extends": "./node_modules/eslint-config-jonnybuchanan/.eslintrc"
+  "extends": "./node_modules/eslint-config-jonnybuchanan/.eslintrc",
+  "rules": {
+    "jsx-quotes": ["error", "prefer-single"]
+  }
 }
