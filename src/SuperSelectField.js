@@ -318,7 +318,10 @@ class SelectField extends Component {
    * Main Component Wrapper methods
    */
   // toggle instead of close ? (in case user changes  targetOrigin/anchorOrigin)
-  handleClick = (event) => !this.props.disabled && this.openMenu()
+  handleClick = (event) => {
+    event.preventDefault();
+    !this.props.disabled && this.openMenu()
+  }
 
   handleKeyDown = (event) =>
     !this.props.disabled && /ArrowDown|Enter/.test(event.key) && this.openMenu()
